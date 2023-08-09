@@ -2,7 +2,7 @@ trigger:
 - main
 
 variables:
-  dockerRegistryServiceConnection: 'TEST'
+  dockerRegistryServiceConnection: 'AcrMSI'
   imageRepository: 'dockerImage'
   dockerfilePath: '$(Build.SourcesDirectory)/app/Dockerfile'
   tag: '$(Build.BuildId)'
