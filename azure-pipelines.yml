@@ -4,7 +4,7 @@ trigger:
 variables:
   dockerRegistryServiceConnection: 'AcrMSI'
   imageRepository: 'dockerImage'
-  dockerfilePath: '$(Build.SourcesDirectory)/app/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
 stages:
