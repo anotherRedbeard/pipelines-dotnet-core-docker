@@ -6,7 +6,7 @@ variables:
   appName: 'red-cus-privatewebapp-wa'
   containerRegistry: 'redcusprivateregistry'
   dockerRegistryServiceConnection: 'AcrMSI'
-  imageRepository: 'dockerImage'
+  imageRepository: 'dockerimage'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
